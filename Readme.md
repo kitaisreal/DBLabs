@@ -13,9 +13,11 @@
 
 # Необходимые инструменты:
 
-1.  MySQL Workbench https://dev.mysql.com/downloads/workbench/
+1.  MySQL Server https://dev.mysql.com/downloads/installer/ (Community)
 
-2.  https://www.draw.io/
+2.  MySQL Workbench https://dev.mysql.com/downloads/workbench/
+
+3.  https://www.draw.io/
 
 # Темы лабораторных работ:
 
