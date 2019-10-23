@@ -11,7 +11,7 @@
 
 Дамп базы данных IMDB.
 
-https://drive.google.com/open?id=1MYZbB21AFgFHSuoiNU\_I2xonnE4dX8pj
+https://drive.google.com/open?id=1MYZbB21AFgFHSuoiNU_I2xonnE4dX8pj
 
 1.  **IMDB\_DB\_DUMP** - Полный дамп базы данных IMDB. Размер 7GB.
 
