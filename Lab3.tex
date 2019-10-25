@@ -16,10 +16,10 @@
 
 https://drive.google.com/open?id=1MYZbB21AFgFHSuoiNU\_I2xonnE4dX8pj
 \begin{enumerate}
-    \item \textbf{IMDB\_DB\_DUMP} - Полный дамп базы данных IMDB. Размер 7GB.
-    \item \textbf{IMDB\_DB\_DUMP\_RATING} - Дамп базы данных IMDB в котором убрана информация про фильмы для которых нет рейтинга.
-    \item \textbf{IMDB\_DB\_DUMP\_RATING\_SORT\_100K} - Дамп базы данных IMDB c информацией про фильмы из топ 100к в рейтниге.
-    \item \textbf{IMDB\_DB\_DUMP\_RATING\_SORT\_10K} - Дамп базы данных IMDB c информацией про фильмы из топ 10к в рейтниге.
+    \item \textbf{IMDB\_DB\_DUMP} - Полный дамп базы данных IMDB. Размер базы 7GB.
+    \item \textbf{IMDB\_DB\_DUMP\_RATING} - Дамп базы данных IMDB в котором убрана информация про фильмы для которых нет рейтинга. Размер базы 3GB.
+    \item \textbf{IMDB\_DB\_DUMP\_RATING\_SORT\_100K} - Дамп базы данных IMDB c информацией про фильмы из топ 100к в рейтниге. Размер базы 1GB.
+    \item \textbf{IMDB\_DB\_DUMP\_RATING\_SORT\_10K} - Дамп базы данных IMDB c информацией про фильмы из топ 10к в рейтниге. Размер базы 400MB.
 \end{enumerate} \par
 Физическая модель дампа базы данных:
 \begin{figure}[ht]
@@ -104,15 +104,16 @@ WHERE titleID = 'tt0468569'
 LIMIT 5
 \end{lstlisting}
 \begin{lstlisting}[basicstyle = \tiny\ttfamily, columns = fixed]
-+-----------------+
-| primaryName     |
-+-----------------+
-| Bob Cadigan     |
-| Janice Buchanan |
-| Brian Allen     |
-| Kendis Rochlen  |
-+-----------------+
-4 rows in set (0.00 sec)
++----------------+
+| primaryName    |
++----------------+
+| Gary Oldman    |
+| Christian Bale |
+| Michael Caine  |
+| Eric Roberts   |
+| Aaron Eckhart  |
++----------------+
+5 rows in set (0.00 sec)
 \end{lstlisting}
 Получить актерский состав фильма Batman(id='tt0468569');
 \begin{lstlisting}[language=SQL]

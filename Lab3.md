@@ -11,18 +11,19 @@
 
 Дамп базы данных IMDB.
 
-https://drive.google.com/open?id=1MYZbB21AFgFHSuoiNU_I2xonnE4dX8pj
+https://drive.google.com/open?id=1MYZbB21AFgFHSuoiNU\_I2xonnE4dX8pj
 
-1.  **IMDB\_DB\_DUMP** - Полный дамп базы данных IMDB. Размер 7GB.
+1.  **IMDB\_DB\_DUMP** - Полный дамп базы данных IMDB. Размер базы 7GB.
 
 2.  **IMDB\_DB\_DUMP\_RATING** - Дамп базы данных IMDB в котором убрана
-    информация про фильмы для которых нет рейтинга.
+    информация про фильмы для которых нет рейтинга. Размер базы 3GB.
 
 3.  **IMDB\_DB\_DUMP\_RATING\_SORT\_100K** - Дамп базы данных IMDB c
-    информацией про фильмы из топ 100к в рейтниге.
+    информацией про фильмы из топ 100к в рейтниге. Размер базы 1GB.
 
 4.  **IMDB\_DB\_DUMP\_RATING\_SORT\_10K** - Дамп базы данных IMDB c
-    информацией про фильмы из топ 10к в рейтниге.
+    информацией про фильмы из топ 10к в рейтниге. Размер базы
+    400MB.
 
 Физическая модель дампа базы данных:
 
@@ -114,15 +115,16 @@ WHERE titleID = 'tt0468569'
 LIMIT 5
 ```
 
-    +-----------------+
-    | primaryName     |
-    +-----------------+
-    | Bob Cadigan     |
-    | Janice Buchanan |
-    | Brian Allen     |
-    | Kendis Rochlen  |
-    +-----------------+
-    4 rows in set (0.00 sec)
+    +----------------+
+    | primaryName    |
+    +----------------+
+    | Gary Oldman    |
+    | Christian Bale |
+    | Michael Caine  |
+    | Eric Roberts   |
+    | Aaron Eckhart  |
+    +----------------+
+    5 rows in set (0.00 sec)
 
 Получить актерский состав фильма Batman(id=’tt0468569’);
 
